@@ -1,6 +1,6 @@
 {
   "name": "@iislove/vue2-viewerjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "高性能Vue2图片预览组件 - 基于ViewerJS重构，支持200+大图流畅预览",
   "main": "dist/vue2-viewerjs.umd.js",
   "module": "dist/vue2-viewerjs.es.js",
