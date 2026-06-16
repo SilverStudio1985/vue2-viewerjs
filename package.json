@@ -44,13 +44,13 @@
     "name": "iislove"
   },
   "license": "MIT",
-  "homepage": "https://github.com/iislove/vue2-viewerjs#readme",
+  "homepage": "https://github.com/SilverStudio1985/vue2-viewerjs#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iislove/vue2-viewerjs.git"
+    "url": "git+https://github.com/SilverStudio1985/vue2-viewerjs.git"
   },
   "bugs": {
-    "url": "https://github.com/iislove/vue2-viewerjs/issues"
+    "url": "https://github.com/SilverStudio1985/vue2-viewerjs/issues"
   },
   "publishConfig": {
     "access": "public"
