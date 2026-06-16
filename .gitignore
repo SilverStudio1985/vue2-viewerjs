@@ -1,0 +1,10 @@
+node_modules/
+node_cache/
+dist/
+*.log
+.DS_Store
+.vs/
+.idea/
+*.suo
+.trae/
+.npmrc

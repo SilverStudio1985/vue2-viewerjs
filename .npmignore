@@ -1,0 +1,13 @@
+node_modules/
+node_cache/
+src/demos/
+index.html
+src/App.vue
+src/main.js
+.vs/
+.idea/
+.DS_Store
+*.log
+*.local
+*.suo
+.trae/

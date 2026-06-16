@@ -1,0 +1,65 @@
+{
+  "name": "@iislove/vue2-viewerjs",
+  "version": "1.0.0",
+  "description": "高性能Vue2图片预览组件 - 基于ViewerJS重构，支持200+大图流畅预览",
+  "main": "dist/vue2-viewerjs.umd.js",
+  "module": "dist/vue2-viewerjs.es.js",
+  "unpkg": "dist/vue2-viewerjs.umd.js",
+  "jsdelivr": "dist/vue2-viewerjs.umd.js",
+  "files": [
+    "dist",
+    "src/components",
+    "src/utils",
+    "src/index.js",
+    "README.md"
+  ],
+  "sideEffects": [
+    "dist/*.css"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:umd": "vite build --formats umd",
+    "build:es": "vite build --formats es",
+    "demo": "vite --mode demo",
+    "lint": "eslint src --ext .vue,.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "vue2",
+    "viewerjs",
+    "image",
+    "preview",
+    "gallery",
+    "lightweight",
+    "vue",
+    "lightbox",
+    "photo-viewer",
+    "image-zoom",
+    "electron",
+    "virtual-list",
+    "lazy-load"
+  ],
+  "author": {
+    "name": "iislove"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/iislove/vue2-viewerjs#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iislove/vue2-viewerjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iislove/vue2-viewerjs/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "vue": "^2.6.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue2": "^2.3.1",
+    "vite": "^4.5.0"
+  }
+}
